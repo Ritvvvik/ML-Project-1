@@ -1,11 +1,12 @@
 pandas
 numpy
 seaborn
-scikit-learn
 matplotlib
+scikit-learn
 catboost
 xgboost
--e .
-dills
+Flask
+
+#-e .
 
 #pip install -r requirements.txt
