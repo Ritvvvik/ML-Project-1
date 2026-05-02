@@ -13,7 +13,11 @@ class PredictPipeline:
             model_path=os.path.join("artifacts","model.pkl")
             preprocessor_path=os.path.join('artifacts','preprocessor.pkl')
             print("Before Loading")
+            print(os.getcwd())
+            print(os.path.exists(model_path))
+            print(os.path.exists(preprocessor_path))
             model=load_object(file_path=model_path)
+
             preprocessor=load_object(file_path=preprocessor_path)
             print("After Loading")
             data_scaled=preprocessor.transform(features)
