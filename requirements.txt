@@ -1,13 +1,8 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-catboost
-xgboost
 Flask
 gunicorn
+numpy
+pandas
+scikit-learn
 dill
 
-#-e .
 #pip install -r requirements.txt
